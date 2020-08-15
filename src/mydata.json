@@ -1,0 +1,136 @@
+[
+  {
+    "id": "18f362c2-a768-49ec-b744-2650b0213d38",
+    "isServiceWorker": true,
+    "firstName": "Jessie",
+    "lastName": "Goodman",
+    "phoneNumber": "123-456-7890",
+    "email": "j.goodman@gmail.com",
+    "password": "1234",
+    "aboutMe": "I'm a Bachelor of Medicine, have 2 years of caretaking experience.",
+    "availability": [
+      {
+        "blockId": "ef081ea0-2b4f-4105-b85e-868f8e3ea601",
+        "day": "Thursday",
+        "start": "08:00:00",
+        "end": "10:00:00"
+      },
+      {
+        "blockId": "77a64fb6-a756-46c2-9de3-70fd5587bae0",
+        "day": "Monday",
+        "start": "08:00:00",
+        "end": "10:00:00"
+      }
+    ]
+  },
+  {
+    "id": "d2fe95ba-c24b-4306-9923-20554a9fae5a",
+    "isServiceWorker": true,
+    "firstName": "Jason",
+    "lastName": "Aubjeckt",
+    "phoneNumber": "213-331-4512",
+    "email": "json.obj@gmail.com",
+    "password": "1234",
+    "aboutMe": "I have 4 years in caretaking experience",
+    "availability": [
+      {
+        "blockId": "584fd95c-8a54-4eb6-9aef-f99bf34cf83f",
+        "day": "Tuesday",
+        "start": "13:00:00",
+        "end": "15:00:00"
+      },
+      {
+        "blockId": "56bb9147-99c4-4ba4-9987-2b211d33d6ff",
+        "day": "Thursday",
+        "start": "09:00:00",
+        "end": "11:00:00"
+      }
+    ]
+  },
+  {
+    "id": "b7e2a8e8-2f4f-4917-8d82-9059167d9ba0",
+    "isServiceWorker": true,
+    "firstName": "Norman",
+    "lastName": "MacDonald",
+    "phoneNumber": "312-441-2315",
+    "email": "norm.mac@gmail.com",
+    "password": "1234",
+    "aboutMe": "I've had extensive experience in caring for many elderly folks.",
+    "availability": [
+      {
+        "blockId": "8a39e283-ad34-471b-a56e-f1d286b35351",
+        "day": "Friday",
+        "start": "12:00:00",
+        "end": "13:00:00"
+      },
+      {
+        "blockId": "c9c35db1-2331-402b-a3bc-b5358a0ad351",
+        "day": "Saturday",
+        "start": "09:00:00",
+        "end": "11:00:00"
+      },
+      {
+        "blockId": "477ab89f-327d-40bf-a26c-32648cc53eb2",
+        "day": "Sunday",
+        "start": "09:00:00",
+        "end": "11:00:00"
+      }
+    ]
+  },
+  {
+    "id": "ff6a1c20-b29c-423f-ba02-b59e12d85929",
+    "isServiceWorker": true,
+    "firstName": "Jay",
+    "lastName": "Son",
+    "email": "j.son@email.com",
+    "password": "123456",
+    "phoneNumber": "123-456-7890",
+    "aboutMe": "I take pleasure in taking care of people too :)",
+    "availability": [
+      {
+        "blockId": "abfde0a5-3244-48c3-87ae-0d9ae8288d92",
+        "day": "Sunday",
+        "start": "15:00:00",
+        "end": "20:30:00"
+      }
+    ]
+  },
+  {
+    "id": "945df496-05ea-49ee-b89b-2ff5763740df",
+    "isServiceWorker": true,
+    "firstName": "John",
+    "lastName": "Wayne",
+    "email": "j.wayne@email.com",
+    "password": "123456",
+    "phoneNumber": "123-456-7890",
+    "aboutMe": "I take pleasure in taking care of people :)",
+    "availability": [
+      {
+        "blockId": "5f83089f-9f55-4b15-ae5f-c222373de675",
+        "day": "Monday",
+        "start": "09:00:00",
+        "end": "10:30:00"
+      },
+      {
+        "blockId": "5043f051-47d0-4c53-aecf-a1a4f526a9c5",
+        "day": "Tuesday",
+        "start": "09:30:00",
+        "end": "13:30:00"
+      }
+    ]
+  },
+  {
+    "id": "174e1912-be4a-4624-bc6d-f3da9a7714f7",
+    "isServiceWorker": false,
+    "patientFirstName": "John",
+    "patientLastName": "Lennon",
+    "parentGuardianFirstName": "Yoko",
+    "parentGuardianLastName": "Ono",
+    "email": "j.lennon@email.com",
+    "password": "123456",
+    "phoneNumber": "123-456-7890",
+    "aboutMe": "I want to hold your hand :)",
+    "patientCondition": "The patient is physically disabled. He cannot use both arms and legs.",
+    "patientNeeds": "Someone to hold his hand"
+  }
+]

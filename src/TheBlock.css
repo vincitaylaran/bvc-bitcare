@@ -1,0 +1,250 @@
+.timeTable {
+    width: fit-content;
+    border: solid;
+    display: grid;
+    grid-template-columns:
+    [Times] 1fr
+    [Monday] 1fr
+    [Tuesday] 1fr
+    [Wednesday] 1fr
+    [Thursday] 1fr
+    [Friday] 1fr
+    [Saturday] 1fr
+    [Sunday] 1fr;
+    grid-template-rows: 
+    [Days] 1 fr
+    repeat(26, 1fr);
+    /*[Time0] 1fr
+    [Time1] 1fr
+    [Time2] 1fr
+    [Time3] 1fr
+    [Time4] 1fr
+    [Time5] 1fr
+    [Time6] 1fr
+    [Time7] 1fr
+    [Time8] 1fr
+    [Time9] 1fr
+    [Time10] 1fr
+    [Time11] 1fr
+    [Time12] 1fr
+    [Time13] 1fr
+    [Time14] 1fr
+    [Time15] 1fr
+    [Time16] 1fr
+    [Time17] 1fr
+    [Time18] 1fr
+    [Time19] 1fr
+    [Time20] 1fr
+    [Time21] 1fr
+    [Time22] 1fr
+    [Time23] 1fr
+    [Time24] 1fr;*/
+    row-gap: 1px;
+    column-gap: 1px;
+    overflow: visible;
+}
+.squareBlock {
+    grid-row: 1;
+    grid-column: Times;
+    border-right: solid;
+    border-bottom: solid;
+}
+.timesBlock {
+    grid-column: Times;
+    border-right: solid;
+    font-size: 2vw;
+}
+.daysBlock {
+    grid-column: auto;
+    grid-row: 1;
+    border-bottom: solid;
+    font-size: 2vw;
+}
+.chosenBlock {
+    background-color: blueviolet;
+    color: chartreuse;
+}
+.fitting {
+    overflow: hidden;
+    font-size: smaller;
+    position: absolute;
+    font-size: 1.5vw;
+}
+
+
+
+.MondayZone {
+    grid-column: Monday;
+}
+.TuesdayZone {
+    grid-column: Tuesday;
+}
+.WednesdayZone {
+    grid-column: Wednesday;
+}
+.ThursdayZone {
+    grid-column: Thursday;
+}
+.FridayZone {
+    grid-column: Friday;
+}
+.SaturdayZone {
+    grid-column: Saturday;
+}
+.SundayZone {
+    grid-column: Sunday;
+}
+
+
+.StartTime00 {
+    grid-row-start: 2;
+}
+.StartTime01 {   
+    grid-row-start: 3;
+}
+.StartTime02 {   
+    grid-row-start: 4;
+}
+.StartTime03 {   
+    grid-row-start: 5;
+}
+.StartTime04 {   
+    grid-row-start: 6;
+}
+.StartTime05 {   
+    grid-row-start: 7;
+}
+.StartTime06 {   
+    grid-row-start: 8;
+}
+.StartTime07 {   
+    grid-row-start: 9;
+}
+.StartTime08 {   
+    grid-row-start: 10;
+}
+.StartTime09 {   
+    grid-row-start: 11;
+}
+.StartTime10 {   
+    grid-row-start: 12;
+}
+.StartTime11 {   
+    grid-row-start: 13;
+}
+.StartTime12 {   
+    grid-row-start: 14;
+}
+.StartTime13 {   
+    grid-row-start: 15;
+}
+.StartTime14 {   
+    grid-row-start: 16;
+}
+.StartTime15 {   
+    grid-row-start: 17;
+}
+.StartTime16 {   
+    grid-row-start: 18;
+}
+.StartTime17 {   
+    grid-row-start: 19;
+}
+.StartTime18 {   
+    grid-row-start: 20;
+}
+.StartTime19 {   
+    grid-row-start: 21;
+}
+.StartTime20 {   
+    grid-row-start: 22;
+}
+.StartTime21 {   
+    grid-row-start: 23;
+}
+.StartTime22 {   
+    grid-row-start: 24;
+}
+.StartTime23 {   
+    grid-row-start: 25;
+}
+.StartTime24 {   
+    grid-row-start: 26;
+}
+
+
+.EndTime00 {
+    grid-row-end: 2;
+}
+.EndTime01 {
+    grid-row-end: 3;
+}
+.EndTime02 {
+    grid-row-end: 4;
+}
+.EndTime03 {
+    grid-row-end: 5;
+}
+.EndTime04 {
+    grid-row-end: 6;
+}
+.EndTime05 {
+    grid-row-end: 7;
+}
+.EndTime06 {
+    grid-row-end: 8;
+}
+.EndTime07 {
+    grid-row-end: 9;
+}
+.EndTime08 {
+    grid-row-end: 10;
+}
+.EndTime09 {
+    grid-row-end: 11;
+}
+.EndTime10 {
+    grid-row-end: 12;
+}
+.EndTime11 {
+    grid-row-end: 13;
+}
+.EndTime12 {
+    grid-row-end: 14;
+}
+.EndTime13 {
+    grid-row-end: 15;
+}
+.EndTime14 {
+    grid-row-end: 16;
+}
+.EndTime15 {
+    grid-row-end: 17;
+}
+.EndTime16 {
+    grid-row-end: 18;
+}
+.EndTime17 {
+    grid-row-end: 19;
+}
+.EndTime18 {
+    grid-row-end: 20;
+}
+.EndTime19 {
+    grid-row-end: 21;
+}
+.EndTime20 {
+    grid-row-end: 22;
+}
+.EndTime21 {
+    grid-row-end: 23;
+}
+.EndTime22 {
+    grid-row-end: 24;
+}
+.EndTime23 {
+    grid-row-end: 25;
+}
+.EndTime24 {
+    grid-row-end: 26;
+}
